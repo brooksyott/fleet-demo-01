@@ -1,0 +1,3 @@
+defaultNamespace: ingress-echo
+resources:
+  - configmap.yaml
