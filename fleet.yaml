@@ -1,4 +1,9 @@
 ---
-defaultNamespace: default
-resources:
-  - configmap.yaml   # Add the file reference inside an array
+apiVersion: fleet.cattle.io/v1alpha1
+kind: Bundle
+metadata:
+  name: my-bundle
+spec:
+  defaultNamespace: ingress-echo
+  resources:
+    - configmap.yaml
