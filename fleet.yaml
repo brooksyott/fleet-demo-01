@@ -1,3 +1,4 @@
-defaultNamespace: ingress-echo
+---
+defaultNamespace: default
 resources:
-  - configmap.yaml
+  - configmap.yaml   # Add the file reference inside an array

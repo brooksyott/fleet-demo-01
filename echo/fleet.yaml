@@ -1,4 +1,0 @@
-defaultNamespace: default
-resources:
-  - configmap.yaml   # Add the file reference inside an array
-
