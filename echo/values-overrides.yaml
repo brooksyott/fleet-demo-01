@@ -6,4 +6,4 @@ image:
 configMap:
   enabled: true  # Ensure that the ConfigMap is enabled in the chart
   data:
-    key1: "valueFleet01"  # Override the data in the ConfigMap
+    key2: "valueFleet02"  # Override the data in the ConfigMap
