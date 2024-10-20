@@ -1,5 +1,5 @@
 ---
 echoService:
-  replicas: 1
+  replicas: 2
 image:
   tag: "v1.3.0"
