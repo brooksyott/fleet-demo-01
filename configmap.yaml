@@ -6,7 +6,7 @@ metadata:
 data:
   generalConfig.yaml: |
     settings:
-      key1: value1
+      key1: value11
       key2: value2
       items:
         - item1
