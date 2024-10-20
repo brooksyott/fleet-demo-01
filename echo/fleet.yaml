@@ -6,7 +6,7 @@ helm:
   releaseName: ingress-echo
   chart: "k8s-grpc-rest-echo"
   repo: https://raw.githubusercontent.com/brooksyott/brooksyott.github.io/main/charts
-  version: "0.3.8"
+  version: "0.4.0"
   valuesFiles:
     - values-overrides.yaml
 spec:
