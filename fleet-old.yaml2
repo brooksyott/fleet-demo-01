@@ -1,9 +1,0 @@
----
-apiVersion: fleet.cattle.io/v1alpha1
-kind: Bundle
-metadata:
-  name: my-bundle
-spec:
-  defaultNamespace: ingress-echo
-  resources:
-    - configmap.yaml
