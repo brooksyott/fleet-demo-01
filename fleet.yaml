@@ -8,7 +8,7 @@ helm:
   repo: https://raw.githubusercontent.com/brooksyott/brooksyott.github.io/main/charts
   version: "0.3.8"
   values:
-    replicas: 2
+    replicas: 3
   valuesFiles:
     - values-overrides.yaml
 spec:
