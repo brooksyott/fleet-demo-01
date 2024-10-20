@@ -7,3 +7,5 @@ helm:
   chart: "k8s-grpc-rest-echo"
   repo: https://raw.githubusercontent.com/brooksyott/brooksyott.github.io/main/charts
   version: "0.3.8"
+  values:
+    replicas: 2
