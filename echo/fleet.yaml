@@ -1,9 +1,13 @@
 ---
 apiVersion: fleet.cattle.io/v1alpha1
 kind: Bundle
-metadata:
-  name: my-bundle
-spec:
-  defaultNamespace: ingress-echo
-  resources:
-    - configmap.yaml
+namespace: ingress-echo  # Specify the namespace where you want to deploy the app
+
+helm:
+  releaseName: ingress-echo  # Replace with your desired Helm release name
+  chart:  # This section points to the Helm repository
+    repo: https://raw.githubusercontent.com/brooksyott/brooksyott.github.io/main/charts  # URL of the Helm chart repository
+    name: brooksyott/k8s-grpc-rest-echo  # Name of the Helm chart in the repository
+    version: 1.3.0  # Specify the version of the chart you want to use
+  valuesFiles:
+    - ./values-overrides.yaml  # Path to the local values file
