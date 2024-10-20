@@ -4,7 +4,6 @@ kind: Bundle
 namespace: ingress-echo
 helm:
   releaseName: ingress-echo
-  chart:
-    repo: https://raw.githubusercontent.com/brooksyott/brooksyott.github.io/main/charts
-    name: k8s-grpc-rest-echo
-    version: "0.3.8"
+  chart: "k8s-grpc-rest-echo"
+  repo: https://raw.githubusercontent.com/brooksyott/brooksyott.github.io/main/charts
+  version: "0.3.8"
