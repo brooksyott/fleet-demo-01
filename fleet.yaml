@@ -11,3 +11,6 @@ helm:
     replicas: 2
   valuesFiles:
     - values-overrides.yaml
+spec:
+  resources:
+    - configmap.yaml
