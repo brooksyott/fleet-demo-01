@@ -1,4 +1,5 @@
 ---
-replicaCount: 3
+echoService:
+  replicas: 1
 image:
   tag: "v1.3.0"
